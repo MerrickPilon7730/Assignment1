@@ -1,0 +1,78 @@
+/*Merrick Pilon 8947730 */
+
+body {
+    width:80%;
+    max-width: 80%;
+    margin: auto;
+    font: 15px Arial, sans-serif, serif;
+    padding: 5px;
+    background-color: cornsilk;
+}
+
+header, footer{
+    border: 5px solid;
+    border-radius: 8px;
+    padding: 8px;
+    margin: 2px;
+}
+
+h1, h2{
+    color: rgb(32, 171, 32);
+    font-variant: small-caps;
+}
+
+footer p{
+    font-size: 10px;
+    color: purple;
+}
+
+main{
+    float: left;
+    max-width: 66%;
+    clear: left;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+aside{
+    float: right;
+    max-width: 33%;
+    clear: right;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+footer{
+    clear: both;
+}
+
+.mainimg{
+    border: 5px solid;
+}
+
+figcaption{
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+q{
+    font-family: cursive;
+    font-style: italic;
+    font-size: 1.1rem;
+}
+
+ul li{
+    list-style-type: none;
+    line-height: 1.5em;
+}
+
+ul > li > a{
+    text-decoration: none;
+    color: hsl(104, 77%, 51%);
+}
+    
+aside a:hover{
+    color: hsl(0, 87%, 50%);
+}
+
+
