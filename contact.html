@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--Merrick Pilon 8947730-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The life of comedian John Oliver">
+    <meta name="keywords" content="John Oliver, comedian, last week tonight">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>The Comedian John Oliver</title>
+</head>
+
+<body class="index">
+    <header>
+        <h1>John Oliver</h1>
+    </header>
+
+    <nav class="nav">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="">Media</a>
+                <ul>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="videos.html">Videos</a></li>
+                </ul>
+            <li><a href="contact.html">Contact</a></li>
+            
+        </ul>
+    </nav>
+    
+    <main>
+        <h2>Contact Us</h2>
+        <p>Let us know how we can help you. <br><br> Required Field *</p>
+        <form name="contact" method="post" action="contact"> 
+            <label for="firstname" class="required">First Name:</label>
+            <input type="text" name="firstname" id="firstname" placeholder="Enter First Name" required>
+            <br>
+            <label for="lastname" class="required">Last Name:</label>
+            <input type="text" name="lastname" id="lastname" placeholder="Enter Last Name" required>
+            <br>
+            <label for="email" class="required">Email:</label>
+            <input type="text" name="email" id="email" placeholder="Enter Email" required>
+            <br>
+            <label for="dob" class="required">Date of Birth:</label>
+            <input type="date" name="dob" id="dob" max="2023-12-09" min="1923-12-09" required>
+            <br>
+            <label for="comedian">Favorite Comedian</label>
+            <br>
+            <select id="comedian" name="comedian">
+                <option value="0">Choose a Comedian</option>
+                <option value="jimmyf">Jimmy Falon</option>
+                <option value="conan">Conan O'Brien</option>
+                <option value="stephen">Stephen Colbert</option>
+                <option value="jimmyk">Jimmy Kimmel</option>
+                <option value="jon">John Stewart</option>
+                <option value="john">John Oliver</option>
+            </select>
+            <br>
+            <br>
+            <label for="comments" class="required">Comments</label> 
+            <br>
+            <textarea name="comments" id="comments" cols="100" rows="10" required></textarea>
+            <br>
+            <input type="reset" class="button" name="clear" id="clear" value="Clear Form">
+            <input type="submit" class="button" name="submit" id="submit" value="Submit">
+        </form>
+    </main>
+
+    <aside>
+        <h3>Additional Information</h2>
+        <ul>
+            <li id="list"><a href="https://www.imdb.com/name/nm1056659/bio/" target="_blank">IMDB</a></li>
+            <li id="list"><a href="https://en.wikipedia.org/wiki/John_Oliver" target="_blank">Wikipedia</a></li>
+            <li id="list"><a href="https://www.hbo.com/last-week-tonight-with-john-oliver" target="_blank">Last Week Tonight</a></li>
+        </ul>
+    </aside>
+    
+    <footer>
+        <p>
+            &copy Merrick Pilon, 2023.
+        </p>
+    </footer>
+</body>
+</html>
